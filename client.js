@@ -12,7 +12,6 @@ function checkMustShowOrNot()
 		if (!el.selectedIndex)
 			shouldShow = false;
 	});
-	console.log(shouldShow);
 	if (shouldShow) ppButton.show();
 	else ppButton.hide();
 }
